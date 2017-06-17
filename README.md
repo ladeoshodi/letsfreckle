@@ -20,9 +20,9 @@ _nb: the setup might be a bit long but after you're done with this, you'll be fr
 brew install python
 ```
 2. Ensure you have virtualenv installed, I prefer to use virtualenv wrapper. Read [here](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/)
-3. Clone [project](https://github.com/laddeos/letsfreckle_client)
+3. Clone [project](https://github.com/laddeos/letsfreckle)
 ```
-git clone git@github.com:laddeos/letsfreckle_client.git
+git clone git@github.com:laddeos/letsfreckle.git
 ```
 4. Create your virtualenv. 
 _command shown assumes virtualenv wrapper_
@@ -55,11 +55,10 @@ And you are all set!!!
 
 
 ## Let's Freckle
-1. Once you are all setup, in the folder directory run
+1. Once you are all setup, in the folder directory run below to view what is possible
 ```
 python log_freckle -h
 ```
-to view what is possible
 2. Log for today
 ```
 python log_freckle.py today 480 <Project> <Description/Tag>
@@ -68,7 +67,7 @@ python log_freckle.py today 480 <Project> <Description/Tag>
 ```
 python log_freckle.py 2017-06-17 480 <Project> <Description/Tag>
 ```
-4. If you have the alias setup, you can always easily type the alias to navigate you to the project and freckle away
+4. If you have the alias setup, you can always type the alias to easily navigate to the project and freckle away
 
 
 That's all folks!!!!! 🐰
