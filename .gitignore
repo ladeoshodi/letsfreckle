@@ -1,0 +1,5 @@
+# ignore python binary files
+*.pyc
+
+# ignore .env file
+.env
