@@ -1,5 +1,6 @@
 import requests
 import json
+import datetime
 
 FRECKLE_API_VERSION = '0.0.1'
 
@@ -34,5 +35,6 @@ class FreckleClientV2(object):
         return {
             'status': response.status_code,
             'user': response.json().get('user'),
-            'freckle_dashboard': 'https://andela.letsfreckle.com/time/dashboard/recent'
+            'freckle_dashboard': 'https://andela.letsfreckle.com/time/dashboard/recent',
+            'date': data.get('date')
         }
